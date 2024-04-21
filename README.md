@@ -1,4 +1,4 @@
-**#Off-RoadAI: Advanced Semantic Segmentation for Off-Road Environments#**
+#Off-RoadAI: Advanced Semantic Segmentation for Off-Road Environments
 
 
 ## Abstract:
