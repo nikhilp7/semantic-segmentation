@@ -165,4 +165,3 @@ dependencies:
   - zipp=3.7.0=pyhd3eb1b0_0
   - zlib=1.2.11=h8ffe710_1014
   - zstd=1.4.9=h19a0ad4_0
-prefix: C:\Users\nhadd\anaconda3\envs\semantic-segmentation
