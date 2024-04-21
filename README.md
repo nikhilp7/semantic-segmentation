@@ -1,13 +1,8 @@
 Off-RoadAI: Advanced Semantic Segmentation for Off-Road Environments
 
-![Semantic segmentation of off-road images](media/seg_overlay.png)
 
 ## Abstract:
 Many state-of-the-art deep learning algorithms require both a large training dataset and compute power, which for a variety of reasons is not always available to the user. Training large networks from scratch becomes tedious, and time consumer for the end-user. Transfer learning is a machine learning method where the transfer of knowledge from one domain to another, which ultimately eliminates the need to train from scratch using randomly initialized networks and benchmark datasets. Transfer is a popular technique in the computer vision field, given the vast compute and time resources required to train neural network architectures. In this paper, we will examine the effect of transfer learning on large encoder-decoder style deep neural networks applied to the task of semantic segmentation. DeepLabv3+ is one such architecture that was state-of-the-art at the time of its publishing in 2018. By applying depth-wise separable convolution to altrous spatial pyramid pooling and decoder modules, DeepLabv3+ was able to successfully incorporate techniques from the 2016 Xception model, resulting in faster, more powerful, and larger networks. We propose extending the use of a pre-trained DeepLabv3+ model to the challenging task of off-road perception. Utilizing the newly available Yamaha-CMU Off-Road Dataset, we successfully employ transfer learning techniques to a pre-trained model for the task of semantic segmentation of off-road images.  
-
-Please email me for the full report
-
-![ResNet101 inference on off-road images](media/resnet101_output.png)
 
 ## Installation:
 
@@ -26,10 +21,6 @@ The simpliest way to get this repo up and running is to use our anaconda `enviro
 `conda create -f environment.yaml`
 
 To activate, run `conda activate semantic-segmentation`.
-
-## Models
-
-[Pretrained Models](https://drive.google.com/drive/folders/1Gmk8vOF9qBNMg3-TEL-st6KWieB4Af5e?usp=sharing)
 
 ## Running:
 
